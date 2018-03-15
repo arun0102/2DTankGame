@@ -1,8 +1,10 @@
 # 2DTankGame
-A very simple 2D tank game created using canvas classes and threads.
+A very simple 2D tank game for Android created using canvas classes and threads.
 
 
-MIT License
+
+
+# MIT License
 
 Copyright (c) 2018 arun0102
 
