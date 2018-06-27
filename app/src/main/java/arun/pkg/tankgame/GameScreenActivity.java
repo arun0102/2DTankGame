@@ -8,16 +8,28 @@ import android.os.Bundle;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 import arun.pkg.tankgame.constants.Constants;
 
 public class GameScreenActivity extends Activity {
 
     private static final String TAG = GameScreenActivity.class.getSimpleName();
+    AdView adView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game_screen);
+
+        MobileAds.initialize(this, "xxx-xxx-xxx");
+
+        adView = findViewById(R.id.adView);
+        AdRequest request = new AdRequest.Builder().build();
+        adView.loadAd(request);
     }
 
     private void pauseGame() {

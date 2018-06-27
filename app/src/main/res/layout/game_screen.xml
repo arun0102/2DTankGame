@@ -2,18 +2,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <RelativeLayout
         android:id="@+id/game_top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#cccc99" >
+        android:background="#cccc99">
 
         <RelativeLayout
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true" >
+            android:layout_centerVertical="true">
 
             <ProgressBar
                 android:id="@+id/health_bar"
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:layout_marginRight="10dp" >
+            android:layout_marginRight="10dp">
 
             <ImageButton
                 android:id="@+id/pause"
@@ -49,7 +49,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginRight="10dp"
                 android:src="@drawable/pause"
-                android:visibility="invisible"/>
+                android:visibility="invisible" />
 
             <TextView
                 android:id="@+id/kill_text"
@@ -77,4 +77,11 @@
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="BANNER"
+        ads:adUnitId="xxx-xxx-xxx" />
 </LinearLayout>

@@ -9,6 +9,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.MobileAds;
+
 import arun.pkg.tankgame.constants.Constants;
 
 public class HomePageActivity extends Activity implements OnClickListener {
