@@ -1,7 +1,8 @@
 # 2DTankGame
 A very simple 2D tank game for Android created using canvas classes and threads.
 
-
+Play store link :
+https://play.google.com/store/apps/details?id=arun.games.tankgame
 
 
 # MIT License
