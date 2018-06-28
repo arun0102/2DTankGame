@@ -7,8 +7,10 @@ android {
 
     defaultConfig {
         applicationId "arun.games.tankgame"
+        versionCode 3
+        versionName "1.0"
         minSdkVersion 14
-        targetSdkVersion 16
+        targetSdkVersion 26
     }
 
     buildTypes {

@@ -1,5 +1,6 @@
 package arun.pkg.tankgame;
 
+import android.annotation.SuppressLint;
 import android.graphics.Canvas;
 import android.view.SurfaceHolder;
 
@@ -29,6 +30,7 @@ public class RunningThread extends Thread {
 
     private long oldTime = System.currentTimeMillis();
 
+    @SuppressLint("WrongCall")
     @Override
     public void run() {
         Canvas canvas = null;
