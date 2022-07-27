@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/level_beginner_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="@string/level_beginner_txt" />
+
+    <Button
+        android:id="@+id/level_medium_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/level_beginner_btn"
+        android:layout_below="@+id/level_beginner_btn"
+        android:text="@string/level_medium_txt" />
+
+    <Button
+        android:id="@+id/level_hard_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/level_medium_btn"
+        android:layout_below="@+id/level_medium_btn"
+        android:text="@string/level_hard_txt" />
+
+    <Button
+        android:id="@+id/level_expert_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/level_hard_btn"
+        android:layout_below="@+id/level_hard_btn"
+        android:text="@string/level_expert_txt" />
+
+</RelativeLayout>

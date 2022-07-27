@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 32
+
+    defaultConfig {
+        applicationId "arun.games.tankgame"
+        versionCode 3
+        versionName "1.0"
+        minSdkVersion 14
+        targetSdkVersion 32
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+}

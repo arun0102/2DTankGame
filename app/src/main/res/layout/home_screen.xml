@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/new_game_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="114dp"
+        android:text="@string/new_game_btn" />
+
+    <TextView
+        android:id="@+id/high_scores_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/high_scores_btn"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
