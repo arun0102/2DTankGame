@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="arun.pkg.tankgame"
+    package="arun.pkg.simpletankgame"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -21,7 +21,7 @@
         <activity android:name="arun.pkg.tankgame.SplashScreenActivity"
             android:exported="false">
         </activity>
-        <activity android:name="HomePageActivity"
+        <activity android:name="arun.pkg.tankgame.HomePageActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

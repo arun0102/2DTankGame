@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import arun.pkg.simpletankgame.R;
 import arun.pkg.tankgame.constants.Constants;
 
 public class GameScreenActivity extends Activity {

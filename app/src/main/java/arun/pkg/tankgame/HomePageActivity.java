@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 
+import arun.pkg.simpletankgame.R;
 import arun.pkg.tankgame.constants.Constants;
 
 public class HomePageActivity extends Activity implements OnClickListener {
